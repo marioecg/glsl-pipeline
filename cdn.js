@@ -148,8 +148,8 @@ class GlslPipeline {
       renderTarget: null,
       width: width,
       height: height,
-      wrapS: THREE.RepeatWrapping,
-      wrapT: THREE.RepeatWrapping,
+      wrapS: THREE.ClampToEdgeWrapping,
+      wrapT: THREE.ClampToEdgeWrapping,
       minFilter: THREE.LinearFilter,
       magFilter: THREE.LinearFilter,
     };
@@ -171,8 +171,8 @@ class GlslPipeline {
       renderTargets: [],
       width: width,
       height: height,
-      wrapS: THREE.RepeatWrapping,
-      wrapT: THREE.RepeatWrapping,
+      wrapS: THREE.ClampToEdgeWrapping,
+      wrapT: THREE.ClampToEdgeWrapping,
       minFilter: THREE.LinearFilter,
       magFilter: THREE.LinearFilter,
     };
